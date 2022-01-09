@@ -1,0 +1,55 @@
+.navbar{
+  font-family: 'Arial Black', Courier, monospace;
+  padding: 10px 20px;
+  background-color: #0d1117;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar form {
+  display: flex;
+}
+.navbar form input {
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+}
+.navbar form button {
+  background-color: aqua;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.profile {
+  width: 500px;
+  max-width: 80%;
+  margin: 30px auto;
+  background-color: #0d1117;
+  color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.profile a {
+  text-decoration: none;
+  color: aqua;
+}
+.profile .view_btn {
+  background-color: aqua;
+  padding: 10px;
+  color: #0d1117;
+  border-radius: 5px;
+}
+.profile .avatar {
+  height: 200px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.profile .bio {
+  text-align: center;
+}
