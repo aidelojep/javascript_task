@@ -1,0 +1,27 @@
+.navbar{
+  font-family: 'Arial Black', Courier, monospace;
+  padding: 20px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar form {
+  display: flex;
+}
+.navbar form input {
+  padding: 8px 10px;
+}
+
+.profile {
+  width: 500px;
+  max-width: 80%;
+  background-color: #0d1117;
+  color: #ffffff;
+}
+.profile a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.profile
